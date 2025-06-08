@@ -23,10 +23,10 @@ A aplicação conta com uma API Java Spring Boot conectada a um banco de dados P
 
 A proposta do **HidroSafe** é implantar um sistema com sensores de ultrassom chamado HC-SR04  que calcular a distância da água até uma possível enchente (simulados no Wokwi), conectados via protocolo MQTT ao Node-RED, que é responsável por interpretar os dados e alimentar um dashboard com os níveis em tempo real.
 O sistema funcionará da seguinte forma:
-•	Cada ponto de monitoramento terá um sensor de nível (HC-SR04) que envia leituras frequentes.
-•	Caso o nível da água atinja um valor crítico, o sistema aciona visualizações e alertas em tempo real no painel da Defesa Civil.
-•	A solução também envia esses dados para uma API centralizada (desenvolvida em .NET ou Java), que armazena as leituras e alerta aplicativos móveis com notificações para os moradores.
-•	O painel (dashboard) também é acessível por navegador local (localhost:1880/ui) e permite o acompanhamento contínuo de todos os sensores instalados.
+* Cada ponto de monitoramento terá um sensor de nível (HC-SR04) que envia leituras frequentes.
+* Caso o nível da água atinja um valor crítico, o sistema aciona visualizações e alertas em tempo real no painel da Defesa Civil.
+* A solução também envia esses dados para uma API centralizada (desenvolvida em .NET ou Java), que armazena as leituras e alerta aplicativos móveis com notificações para os moradores.
+* O painel (dashboard) também é acessível por navegador local (localhost:1880/ui) e permite o acompanhamento contínuo de todos os sensores instalados.
 
 
 ## 🚀 Tecnologias Utilizadas
