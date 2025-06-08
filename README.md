@@ -9,7 +9,6 @@
 | Nicollas Guedes Pontes | [RM556850] Turma:  2TDSB
 
 ## 🎥 Links para os vídeos:
-* Demonstração da solução completa: [Link do vídeo](https://www.youtube.com/)
 * Demonstração da conteinerização (DevOps): https://youtu.be/LnIVyvO_IWc
 * Pitch de apresentação: https://youtu.be/EpZtc4Rvggw
 
@@ -134,7 +133,7 @@ Resposta (200 OK):
 
 ### Criar Denúncia
 
-POST /registros
+POST /denuncias
 
 Header: `Authorization: Bearer <JWT Token>`
 
@@ -163,7 +162,7 @@ Resposta (201 Created):
 
 ### Buscar Denúncia por ID
 
-GET /registros/{id}
+GET /denuncias/{id}
 
 Resposta:
 
@@ -182,7 +181,7 @@ Resposta:
 
 ### Atualizar Denúncia
 
-PUT /registros/{id}
+PUT /denuncias/{id}
 
 ```json
 {
@@ -205,7 +204,7 @@ Resposta:
 
 ### Deletar Denúncia
 
-DELETE /registros/{id}
+DELETE /denuncias/{id}
 
 Resposta:
 204 No Content
